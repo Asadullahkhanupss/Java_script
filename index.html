@@ -173,7 +173,7 @@
   </section>
   <!-- our services end -->
             <!-- CONTACT US -->
-            <form>
+            <form onclick="return takeInput()">
             <div class="text-center my-5">
               <h1 data-aos="fade-up" data-aos-offset="200">Contact <span class="text-warning">Us</span></ins></h1>
           </div>
@@ -190,7 +190,8 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                     <textarea class="form-control" id="messInput" rows="3"></textarea>
                   </div>
-    <button onclick="takeInput()" class="btn btn-warning text-dark">Submit</button>
+    <!-- <button  class="btn btn-warning text-dark">Submit</button> -->
+    <input class="btn btn-warning text-dark" type="submit" value="submit">
             </div>
           </form>
             <!-- DARK OR LIGHT THEME -->

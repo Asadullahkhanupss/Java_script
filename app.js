@@ -45,9 +45,15 @@ function takeInput() {
   const userEnterName = document.getElementById('userInput').value;
   const userEnterEmail = document.getElementById('emailInput').value;
   const userEnterMess = document.getElementById('messInput').value;
-  console.log('Client Name:', userEnterName);
-  console.log('Client Email', userEnterEmail);
-  console.log('Client Message', userEnterMess);
+  // console.log('Client Name:', userEnterName);
+  // console.log('Client Email', userEnterEmail);
+  // console.log('Client Message', userEnterMess);
+  if (userEnterName == value) {
+   console.log('Client Name:', userEnterName);
+  }
+  else{
+    console.log("error")
+  }
 }
 
 
